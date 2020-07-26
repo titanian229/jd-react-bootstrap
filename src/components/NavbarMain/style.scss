@@ -1,0 +1,43 @@
+@import '../../styles/colours.scss';
+
+#navbar {
+    border-bottom: 6px solid $secondary;
+    font-family: 'Merienda One';
+}
+
+.darkNav {
+    // background-color: lighten(black, 10);
+    background-color: scale-color($color: lighten($dark, 5), $blue: 5);
+    .navContent .nav-link {
+        color: $secondary;
+
+        &:hover {
+            color: $highlight;
+        }
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+}
+
+.lightNav {
+    background-color: scale-color($color: lighten($primary, 5), $blue: 5);
+    .navContent .nav-link {
+        color: lighten($secondary, 30);
+
+        
+
+        &:hover {
+            color: $highlight;
+        }
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+
+    .active {
+        color: lighten($highlight, 5) !important;
+    }
+}

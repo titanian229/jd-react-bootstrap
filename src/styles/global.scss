@@ -15,6 +15,15 @@ body {
     position: relative;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merienda One';
+}
+
 .maincontent {
     // padding-bottom: 2.5em;
     // display: flex;
@@ -30,7 +39,7 @@ body {
 }
 
 .largeTopSpace {
-    margin-top: 6em;
+    margin-top: 4em;
 }
 .outline {
     outline: 1px solid red;

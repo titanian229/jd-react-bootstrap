@@ -6,7 +6,7 @@ import './style.scss';
 
 const Project = (props) => {
     return (
-        <Card>
+        <Card data-aos="fade-up">
             {/* <Card.Img variant="top" src={props.imageURL} className="limitedHeight" /> */}
             <div className="projectImage" style={{ backgroundImage: `url(${props.imageURL})` }}></div>
             <Card.Header className="cardTitle">{props.name}</Card.Header>

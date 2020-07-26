@@ -6,13 +6,14 @@ import Col from 'react-bootstrap/Col';
 import Skills from '../scenes/About/Skills';
 import Bio from '../scenes/About/Bio';
 import Photo from '../components/Photo';
-import ContactIcons from '../scenes/About/ContactIcons'
+import ContactIcons from '../components/ContactIcons'
 
 import james from '../scenes/About/images/JamesLeeOp.png';
 
 const About = () => {
     return (
         <div style={{ backgroundColor: '#F0EEF0' }} className="pt-4 pb-4 px-2 h-100 min-100">
+            <h1 className="text-center mb-4">James T Lee</h1>
             <Skills />
             <Container className="largeTopSpace whiteBG">
                 <Row>

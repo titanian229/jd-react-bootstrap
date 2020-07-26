@@ -1,9 +1,11 @@
 import React from 'react'
 import './style.scss'
 
-const Footer = () => {
+const Footer = (props) => {
+    if (props.location.pathname === '/') return ''
+
     return (
-        <footer>
+        <footer className="text-center">
             &copy; 2020 James T Lee
         </footer>            
     )

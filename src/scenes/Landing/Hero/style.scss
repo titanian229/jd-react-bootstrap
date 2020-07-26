@@ -1,0 +1,87 @@
+@import '../../../styles/colours.scss';
+
+.heroContainer {
+    background-color: black;
+    // height: 100vh;
+    content: '';
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#astro {
+    position: fixed;
+    left: calc(50vw - 80px); //40vw;
+    top: calc(50vh - 80px);
+    width: 160px;
+    height: auto;
+}
+
+#earth {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    // z-index: -4;
+    transform: translate(0, 20vw);
+}
+
+#name {
+    position: fixed;
+    font-size: 4em;
+    right: 0;
+    margin-right: 10px;
+    bottom: 3rem;
+    text-align: right;
+    font-family: 'Orbitron';
+    color: white; //adjust-hue($four, 180deg);
+    letter-spacing: 0.3em;
+    writing-mode: vertical-rl;
+    line-height: 0.95;
+    animation: inleft 0 1s ease-in;
+    z-index: -1;
+}
+
+.midlight {
+    color: $secondary;
+}
+
+#subtitle {
+    position: fixed;
+    font-size: 2.5em;
+    font-weight: 400;
+    left: 0;
+    margin-left: 10px;
+    top: 4.8rem;
+    color: white;
+    font-family: 'Orbitron';
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+    transform-origin: center;
+    max-height: 12ch;
+    // outline: 1px solid red;
+    text-align: right;
+    transform: rotate(180deg);
+}
+
+// #infoBox {
+//     min-width: 40vw;
+//     background-color: lighten(black, 5);
+//     max-width: 40vw;
+//     font-size: .8em;
+//     bottom: 10vh;
+//     // outline: 1px solid red;
+//     position: fixed;
+//     left: calc(50vw - 20vw)
+
+// }
+
+// @media screen and (min-width: 657px) {
+//     #infobox {
+//         min-width: 2em;
+//     }
+// }

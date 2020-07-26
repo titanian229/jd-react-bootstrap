@@ -2,9 +2,9 @@ import React from 'react';
 import {FaLinkedin, FaGithub, FaEnvelope} from 'react-icons/fa'
 import './style.scss';
 
-const ContactIcons = () => {
+const InfoBox = (props) => {
     return (
-        <div className="contactIconContainer">
+        <div ref={props.setref} className="infoBox">
             <a href="https://github.com/titanian229">
                 <FaGithub />
             </a>
@@ -18,4 +18,4 @@ const ContactIcons = () => {
     );
 };
 
-export default ContactIcons;
+export default InfoBox;

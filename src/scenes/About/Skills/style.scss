@@ -2,7 +2,7 @@
 
 .skills {
     text-align: center;
-    color: $highlight;
+    color: darken($primary, 10);
     max-width: 80ch;
     vertical-align: middle;
     // color: lighten($two, 40);
@@ -13,7 +13,7 @@
         border-radius: 50%;
         height: 0.6ch;
         width: 0.6ch;
-        background-color: lighten($highlight, 20);
+        background-color: lighten($highlight, 0);
         display: inline-block;
         margin: 0 0.9ch;
         margin-bottom: 0.3ch;
@@ -39,6 +39,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: lighten($secondary, 15);
+    padding: 1em 0;
     // background-color: $dark;
 
 }
