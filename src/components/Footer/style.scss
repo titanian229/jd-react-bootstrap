@@ -1,0 +1,14 @@
+@import '../../styles/colours.scss';
+
+footer {
+    // position: absolute;
+    // bottom: 0;
+    width: 100%;
+    line-height: 2.5rem;
+    padding-left: 2.5rem;
+
+    border-top: 4px solid $secondary;
+    background-color: $primary;
+    color: $offwhite;
+
+}

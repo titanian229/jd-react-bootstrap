@@ -1,0 +1,54 @@
+@import '../../../styles/colours.scss';
+
+.projectImage {
+    height: 10em;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: $secondary;
+}
+
+.cardTitle {
+    letter-spacing: 0.3em;
+    font-weight: 900;
+    color: $primary;
+}
+
+.cardText {
+    padding: 1em 1em;
+}
+
+.cardSubtitle {
+    color: $secondary;
+    margin: 0.5em 0;
+    font-style: italic;
+}
+
+// .cardDescription {
+
+// }
+
+.techContainer {
+    padding: 0 1em;
+    margin: 1em 0;
+
+    .tech {
+        background-color: lighten($primary, 20);
+        margin: 0 0.3em;
+    }
+}
+
+.linkContainer {
+    display: flex;
+    padding: 0 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3em;
+    a {
+        color: $secondary;
+        transition: all 0.3s;
+        &:hover {
+            color: $highlight;
+        }
+    }
+}

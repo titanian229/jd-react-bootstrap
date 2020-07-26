@@ -1,0 +1,51 @@
+@import '../../../styles/colours.scss';
+
+.skills {
+    text-align: center;
+    color: $highlight;
+    max-width: 80ch;
+    vertical-align: middle;
+    // color: lighten($two, 40);
+    // margin-bottom: 2em;
+
+    span + span::before {
+        content: '';
+        border-radius: 50%;
+        height: 0.6ch;
+        width: 0.6ch;
+        background-color: lighten($highlight, 20);
+        display: inline-block;
+        margin: 0 0.9ch;
+        margin-bottom: 0.3ch;
+    }
+
+    // > div::before {
+    //     content: '<\A0';
+    //     color: orange;
+    // }
+
+    // > div::after {
+    //     color: orange;
+    //     content: '\A0>';
+    // }
+}
+
+.skill {
+    white-space: nowrap;
+}
+
+.skillsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: $dark;
+
+}
+
+@media screen and (max-width: 700px) {
+    .skill {
+        white-space: normal;
+        font-size: 0.9em;
+    }
+}

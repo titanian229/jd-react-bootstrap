@@ -1,0 +1,117 @@
+@import './colours.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    // background-color: $main-bg;
+    // color: $text;
+    // font-size: 80%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.maincontent {
+    // padding-bottom: 2.5em;
+    // display: flex;
+    // flex-direction: column;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.min-100 {
+    min-height: 100%;
+}
+
+.largeTopSpace {
+    margin-top: 6em;
+}
+.outline {
+    outline: 1px solid red;
+}
+.whiteBG {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.darkBG {
+    background-color: $dark;
+    color: $offwhite;
+}
+
+.projectsContainer {
+    display: grid;
+    align-items: top;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 3rem;
+}
+
+a {
+    color: $highlight;
+}
+
+@media all and (max-width: 600px) {
+    .whiteBG {
+        // margin-left: 1em;
+        // margin-right: 1em;
+        padding: 1em 1em;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .largeTopSpace {
+        margin-top: 1em;
+    }
+}
+
+// UTILITY CLASSES
+
+// .come-in {
+//     transform: translateY(150px);
+//     animation: come-in 0.8s ease forwards;
+// }
+// .come-in:nth-child(odd) {
+//     animation-duration: 0.6s;
+// }
+
+// @keyframes come-in {
+//     to {
+//         transform: translateY(0);
+//     }
+// }
+
+// .clearfix::after {
+//     content: '';
+//     clear: both;
+//     display: table;
+// }
+
+// @media screen and (max-width: 700px) {
+//     #skills {
+//         font-size: 0.8em;
+//     }
+//     #contact-container {
+//         flex-direction: column-reverse;
+//         div:first-of-type {
+//             width: 90%;
+//         }
+//         div:nth-child(2) {
+//             margin: 1em;
+//             width: 90%;
+
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 600px) {
+//     .main-container {
+//         margin: 0 3vw;
+//     }
+// }

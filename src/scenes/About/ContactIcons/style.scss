@@ -1,0 +1,10 @@
+@import '../../../styles/colours.scss';
+
+.contactIconContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 3em;
+    margin: 0.5em 0;
+}
