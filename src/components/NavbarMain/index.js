@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import './style.scss';
 import React from 'react';
 
+// import jtlLogo from './JTL CombinedLogo.png';
 import jtlLogo from './JTL CombinedLogo.png';
 
 const NavbarMain = (props) => {

@@ -1,7 +1,8 @@
 @import '../../../styles/colours.scss';
 
 .projectImage {
-    height: 10em;
+    height: 300px;
+    min-height: 300px;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -16,7 +17,12 @@
 
 .cardText {
     padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+
 
 .cardSubtitle {
     color: $secondary;
@@ -24,13 +30,13 @@
     font-style: italic;
 }
 
-// .cardDescription {
-
-// }
+.cardDescription {
+}
 
 .techContainer {
     padding: 0 1em;
     margin: 1em 0;
+    flex-grow: 1;
 
     .tech {
         background-color: lighten($primary, 20);

@@ -22,12 +22,22 @@
     {
         "name": "JamesDeveloping.ca",
         "key": 3,
-        "subtitle" : "My personal webpage",
-        "description" : "Node/Express based server, using handlebars templating.  I wanted something that would write the page for me, so portfolio projects are loaded from a database I add to, instead of being individually created in HTML.  Styling is with Sass, and animations are created either in plain CSS or using GreenSocks.",
-        "imageURL" : "./images/icons/JamesDeveloping.jpg",
-        "githubLink" : "https://github.com/titanian229/PersonalPageNodeExpress",
-        "liveLink" : "https://jamesdeveloping.ca",
-        "technologies" : ["JavaScript", "HTML", "Sass", "Node.js", "Handlebars", "Express"]
+        "subtitle": "My personal webpage",
+        "description": "An updated version of my personal webpage, built using React.",
+        "imageURL": "./images/icons/JamesDevelopingReactBootstrap.jpg",
+        "githubLink": "https://github.com/titanian229/jd-react-bootstrap",
+        "liveLink": "https://jamesdeveloping-react.herokuapp.com/",
+        "technologies": ["Node", "React", "Sass", "React-Bootstrap", "Bootstrap", "Greensocks"]
+    },
+    {
+        "name": "Google Books Library",
+        "key": 10,
+        "subtitle": "Easily find and save your books!",
+        "description": "Website for searching and saving books, using the Google Books API, built in React with a MongoDB database",
+        "imageURL": "./images/icons/mylibrary.jpg",
+        "githubLink": "https://github.com/titanian229/my-library",
+        "liveLink": "https://mylibrary-jl.herokuapp.com/",
+        "technologies": ["Node", "Express", "React", "MongoDB", "Sass", "Ant Design", "AOS"]
     },
     {
         "name": "ScheduleCreator",
