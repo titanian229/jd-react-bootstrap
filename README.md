@@ -12,16 +12,11 @@ My personal webpage, created to showcase my skills and host my bio and portfolio
 -   GSAP
 -   AOS
 
-
 ![Landing Page](./readmeAssets/landing.jpg)
-
 
 ![About Page](./readmeAssets/about.jpg)
 
-
 ![Portfolio Page](./readmeAssets/portfolio.jpg)
-
-
 
 ## Author
 
