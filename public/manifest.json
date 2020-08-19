@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "jtl-combinedlogo-192.png",
+      "src": "jtl192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "jtl-combinedlogo-512.png",
+      "src": "jtl512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

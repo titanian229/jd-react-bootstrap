@@ -4,7 +4,7 @@ import './style.scss';
 import React from 'react';
 
 // import jtlLogo from './JTL CombinedLogo.png';
-import jtlLogo from './JTL CombinedLogo.png';
+import jtlLogo from './JTLLogoTransparentBG.png';
 
 const NavbarMain = (props) => {
     let classes = '';
