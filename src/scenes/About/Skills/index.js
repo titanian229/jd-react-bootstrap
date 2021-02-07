@@ -3,7 +3,7 @@ import './style.scss';
 import { FaLessThan, FaGreaterThan } from 'react-icons/fa';
 
 let skillsListData = [
-    ['HTML5', 'CSS3', 'JavaScript ES6', 'Python', 'SQL', 'Git'],
+    ['HTML5', 'CSS3', 'JavaScript ES6', 'Python', 'SQL & NoSQL', 'Git'],
     ['MongoDB / Express / React / Node.js (MERN) Stack'],
     ['Handlebars.js', 'Bootstrap', 'Semantic UI', 'Sass'],
 ];

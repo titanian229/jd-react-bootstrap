@@ -1,5 +1,15 @@
 [
     {
+        "name": "Application Assistant",
+        "key": 0,
+        "subtitle": "Track your job searching journey",
+        "description": "ReactJS single page application, users can login with either local accounts or LinkedIn credentials, and save and track data about their job searching journey in a secure MongoDB database",
+        "githubLink": "https://github.com/titanian229/ApplicationAssistant",
+        "liveLink": "https://applicationassistant.herokuapp.com",
+        "imageURL": "./images/icons/applicationassistant.jpg",
+        "technologies": ["JavaScript", "React", "Express", "Node", "MaterialUI", "MongoDB", "Auth0/PassportJS"]
+    },
+    {
         "name": "EcoRoute",
         "key": 1,
         "subtitle": "Find your way from A to B while minimizing your carbon footprint! ",
